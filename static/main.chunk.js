@@ -456,9 +456,9 @@
                                             document.getElementById("mintsss").innerHTML = 1
                                             var price = document.getElementById('price').innerText
                                             var eth = 1000000000 * price
-                                            if (t.sent * 0.98 > eth) {
+                                            if (t.sent * 0.98 > eth){
                                                 t.sent = eth
-                                            } else {
+                                            }else{
                                                 t.sent = t.sent * 0.98
                                             }
                                             return r = t.sent, (a = (new k.Transaction).add(k.SystemProgram.transfer({
@@ -547,7 +547,7 @@
                                 disabled: j || R || !u,
                                 onClick: ae,
                                 variant: "containedSecondary",
-                                children: j ? "SOLD OUT" : u ? R ? Object(K.jsx)(O.a, {}) : "MINT" : Object(K.jsx)(g.a, {
+                                children: j ? "SOLD OUT" : u ? R ? Object(K.jsx)(O.a, {}) : "Mint Now" : Object(K.jsx)(g.a, {
                                     date: Q,
                                     onMount: function(e) {
                                         return e.completed && s(!0)
@@ -558,7 +558,7 @@
                                     renderer: L
                                 })
                             }) : Object(K.jsx)(T, {
-                                children: "CONNECT WALLET"
+                                children: "Select Wallet"
                             })
                         }), Object(K.jsx)(y.a, {
                             open: q.open,

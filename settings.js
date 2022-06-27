@@ -1,3 +1,4 @@
+
 const collectionInfo = {
     name: "GM Chimps",
     title: "{name}",
@@ -7,12 +8,12 @@ const collectionInfo = {
         twitter: "https://twitter.com/",
     },
     medias: {
-        preview: "1nft.png",
+        preview: "nft.jpg",
         favicon: "logo.jpg",
     },
     background: {
         type: "image",
-        image: "background.png",
+        image: "bj.jpg",
         video: "",
         color: "#4E4E6D",
     }
